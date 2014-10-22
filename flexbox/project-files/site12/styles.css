@@ -14,7 +14,7 @@ h3 {
     display: flex;
     flex-flow: row wrap;
     align-content: center;
-    justify-content: space-between;
+    justify-content: space-between; //the original x alignment
 }
 .item {
     background-color: #f9f9f9;
