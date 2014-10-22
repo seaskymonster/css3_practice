@@ -4,7 +4,7 @@ body {
 }
 .container {
     background-color: #555;
-    max-width: 800px;
+    max-width: 800px;  /*max-width  can help you resizing the layout when you resize the browser*/
     height: 400px;
     margin: 0 auto;
     display: flex;
@@ -29,7 +29,7 @@ body {
     background-color: orange;
     flex: 1;
 }
-@media (max-width: 600px) {
+@media (max-width: 600px) {  // when the whith less than 600 px...item1 will go to the last...
     .item1 {
         order: 100;
     }
