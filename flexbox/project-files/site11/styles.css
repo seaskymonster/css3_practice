@@ -13,7 +13,8 @@ h3 {
     margin: 0 auto;
     display: flex;
     flex-flow: row wrap;
-    align-content: center;
+    align-content: center;   /*//the align-content  deals with cross-alix alignment.  it means if flex-direction: is row, it span in row(x-dirction).
+                             // align-content deals with the y direciton*/
 }
 .item {
     background-color: #f9f9f9;
