@@ -12,7 +12,7 @@ body {
 
 .item {
 	color: white;
-	flex-basis: 400px;
+	flex-basis: 400px; /*every column's width compare with the total width, if it need grow ,flex-grow, if it need shrink, flex shrink*/
 }
 
 .item1 {
@@ -23,7 +23,7 @@ body {
 .item2 {
 	background-color: #138;
 	flex-grow: 1;
-	flex-shrink: 1;
+	flex-shrink: 1;  
 }
 .item3 {
 	background-color: #262;
@@ -35,3 +35,24 @@ body {
 	flex-grow: 1;
 	flex-shrink: 1;
 }
+
+/*
+.container{
+	background-color: #555;
+	width:800px;
+	height:400px;
+	margin:0 auto;
+	display:flex;
+
+}
+
+.item{
+    color:white;
+    flex-basis:150px; /*column width*/
+   /* flex-grow:1;  //the width left, every subelment can grow to fullfill the width...if it gives the item1, item2..they can be differenct
+ 
+}
+.item1 { background-color: red; }
+.item2 { background-color: blue; }
+.item3 { background-color: green; }
+.item4 { background-color: orange; }*/

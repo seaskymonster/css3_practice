@@ -16,7 +16,8 @@ body {
 
 .item1 {
 	background-color: #d02;
-	flex: 2;
+	flex: 2;   /*flex 1 1 150px; flex-grow flex-shrink flex-basis*/ 
+	/*no flex-basis, it takes 2 width... */
 }
 .item2 {
 	background-color: #138;
