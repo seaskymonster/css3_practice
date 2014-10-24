@@ -39,6 +39,7 @@
 background-size: 100% 80px, 100% 80px, 10px 10px, 100%;
   background-position: top left, bottom left, bottom left, center;
   background-repeat: no-repeat, no-repeat, repeat, no-repeat;*/
+background-image:  -webkit-radial-gradient(ellipse at center, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0.02) 30%, transparent 50%), -webkit-linear-gradient(to bottom, #99FF99 0%, #99FFCC 100%) ;
 
 background-image:  radial-gradient(ellipse at center, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0.02) 30%, transparent 50%), linear-gradient(to bottom, #99FF99 0%, #99FFCC 100%) ;
 background-size:10px 10px, 100%;
@@ -100,7 +101,7 @@ background-repeat: repeat, no-repeat;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
   
-  border-bottom: 70px solid rgba(240, 17, 51, 0.84);
+  border-bottom: 70px solid rgba(240, 17, 51, 0.50);
 
 
 }
@@ -143,30 +144,10 @@ background-repeat: repeat, no-repeat;
 
 
 
-.button input:checked ~ .hole .switch:before {
-  top: auto;
-  bottom: -2px;
-}
-.button input:checked ~ .hole .switch:after {
-  content: "";
-  position: absolute;
-  bottom: -24px;
-  left: calc(14%);
-  width: 96px;
-  height: 16px;
-  border-radius: 50%;
-  background-image: -webkit-radial-gradient(center, ellipse, #fef400 0%, rgba(254, 244, 0, 0.3) 60%, transparent 100%);
-  background-image: radial-gradient(ellipse at center, #fef400 0%, rgba(254, 244, 0, 0.3) 60%, transparent 100%);
-  -webkit-filter: blur(8px);
-          filter: blur(8px);
-}
-.button input:checked ~ .hole .switch .one {
-  background-image: -webkit-linear-gradient(top, #eeeeee 0%, #aaaaaa 100%);
-  background-image: linear-gradient(to bottom, #eeeeee 0%, #aaaaaa 100%);
-}
-.button input:checked ~ .hole .switch .zero {
-  box-shadow: 0 4px 2px rgba(255, 255, 255, 0.5) inset, 0 -4px 2px rgba(0, 0, 0, 0.2) inset, 0 0 0 6px #aaaaaa inset;
-}
+
+.button input:checked ~ .hole .switch .arrow-up {
+ border-bottom: 70px solid rgba(240, 17, 51, 1);
+
 body {
   background-color: #2B2B2B;
 }
